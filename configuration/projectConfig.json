@@ -1,6 +1,6 @@
 {
   "repoType": "git",
-  "githubConnectionArn": "arn:aws:codeconnections:eu-north-1:637423613523:connection/38f51b0f-52af-4e1c-b5e9-c4e5b8e4a744",
+  "githubConnectionArn": "arn:aws:codeconnections:eu-north-1:637423613523:connection/edcdd9b1-7cd3-4d22-b542-276fea9fa243",
   "githubRepoOwner": "Gogogoforit",
   "githubRepoName": "mlops-e2e"
 }

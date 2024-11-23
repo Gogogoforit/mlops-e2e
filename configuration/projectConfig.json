@@ -1,3 +1,4 @@
 {
-  "repoType": "codecommit"
+  "repoType": "codecommit",
+  "projectName": "mlops-e2e"
 }

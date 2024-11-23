@@ -1,4 +1,13 @@
 {
-  "repoType": "codecommit",
-  "projectName": "mlops-e2e"
+    "projectName": "mlops-e2e",
+    "repoType": "git",
+    "git": {
+        "githubConnectionArn": "",
+        "githubRepoOwner": "",
+        "githubRepoName": ""
+    },
+    "modelEndpointExportNamePrefix": "ModelHostingEndpoint",
+    "ipPermitList": [
+        "0.0.0.0/0"
+    ]
 }

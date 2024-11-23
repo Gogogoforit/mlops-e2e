@@ -2,10 +2,13 @@
     "projectName": "mlops-e2e",
     "repoType": "git",
     "git": {
-        "githubConnectionArn": "",
-        "githubRepoOwner": "",
-        "githubRepoName": ""
+        "githubConnectionArn": "arn:aws:codeconnections:eu-north-1:637423613523:connection/b233e7a1-bc81-4a06-b806-50a92bf31bde",
+        "githubRepoOwner": "Gogogoforit",
+        "githubRepoName": "mlops-e2e"
     },
+
+
+
     "modelEndpointExportNamePrefix": "ModelHostingEndpoint",
     "ipPermitList": [
         "0.0.0.0/0"

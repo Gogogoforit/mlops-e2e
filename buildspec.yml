@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies"
+      - pip install virtualenv
+  pre_build:
+    commands:
+      - echo "Setting up virtual environment"
+      - virtualenv -p python3 .venv
+      - source .venv/bin/activate
+      - pip install -r requirements.txt
+      - pip install sagemaker==2.232.0
+  build:
+    commands:
+      - echo "Running SageMaker pipeline"
+      - bash scripts/run_pipeline.sh
+  post_build:
+    commands:
+      - echo "Post-build phase completed"
+
+artifacts:
+  files:
+    - pipelineExecution.json
+  discard-paths: yes
